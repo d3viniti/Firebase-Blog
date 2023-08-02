@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function Header() {
 
-    const categories = ["Health", "Food", "Travel", "Techonology"];
+    const categories = ["Relationships", "Nutrition", "Exercise", "Relaxation"];
     //could get categories from the backend, we don't have many so we will just store them in
     // an array
     const navigate = useNavigate();
