@@ -1,8 +1,9 @@
 
 import {useEffect} from 'react'
 import './Banner.css'
-import { collection } from 'firebase/firestore'
+import { collection, getDocs } from 'firebase/firestore'
 import {db} from '../../config/firebaseConfig'
+
 
 function Banner() {
 
